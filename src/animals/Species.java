@@ -15,6 +15,17 @@ public class Species {
 		diet = new ArrayList<Species>();
 		
 	}
+	
+	/** Added toString method to print Species object.	*/
+	
+	@Override
+	public String toString() {
+		return name + "\nweight: " +
+			   weight + "\nlength: " +
+			   length + "\nheight: " +
+			   height + "\ndiet: " +
+			   diet;
+	}
 
 /** Starter class file for Species class, which holds basic information (like name,
  * weight, length, and height) about the species, a constructor that initializes the variables, as well as an ArrayList of type
