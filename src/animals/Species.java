@@ -3,9 +3,14 @@ package animals;
 import java.util.*;
 
 public class Species {
+	
+	/**Instance variables	*/
+	
 	private String name;
 	private double weight, length, height;
 	private List<Species> diet;
+	
+	/**No-arg constructor	*/
 	
 	public Species() {
 		name = "INPUT SPECIES NAME";

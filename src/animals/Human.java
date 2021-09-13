@@ -7,4 +7,6 @@ public class Human {
 		System.out.println(human);
 	}
 
+	/**Created a second class file (Human) with a main method that creates a Species object (human) and prints out its contents	*/
+	
 }
